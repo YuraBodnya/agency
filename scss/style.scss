@@ -1,0 +1,62 @@
+*{
+   box-sizing: border-box;
+}
+
+@font-face{
+   font-family: 'Nexa-XBold';
+   src: url('../fonts/Nexa-XBold.ttf');
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face{
+   font-family: 'Gilroy-Bold';
+   src: url('../fonts/Gilroy-Bold.ttf');
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face{
+   font-family: 'nexaregular';
+   src: url('../fonts/nexaregular.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body{
+   font-family: 'nexaregular';
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul{
+   margin: 0;
+   padding: 0;
+}
+ul{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+}
+
+.container{
+   max-width: 1550px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+@import '_header';
+@import '_main_about';
+@import '_main_services';
+@import '_main_testimonials';
+@import '_main_contact';
+@import '_footer';
